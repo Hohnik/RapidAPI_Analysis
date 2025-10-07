@@ -1,0 +1,38 @@
+feature,importance_score,correlation,random_forest,mutual_info,statistical,business,category
+rate_limit_per_month,76.8,69.2,100.0,48.0,86.5,0.0,Other
+response_time_ms,74.0,54.1,97.2,81.2,61.9,66.7,Performance
+rating,68.7,100.0,56.8,0.0,96.7,100.0,Other
+rate_limit_per_day,67.1,84.9,99.9,3.3,73.9,0.0,Other
+num_endpoints,61.6,45.4,72.2,83.7,51.4,50.0,Performance
+rate_limit_per_hour,61.4,56.3,99.6,11.6,71.0,0.0,Other
+uptime_percentage,56.0,54.0,72.9,0.0,69.0,83.3,Performance
+provider_encoded,55.7,32.2,87.1,27.3,72.8,0.0,Market & Brand
+tutorials_available,53.4,57.5,10.2,66.2,85.1,66.7,Developer Experience
+caching_enabled,51.3,46.3,10.1,90.4,76.0,50.0,Other
+price_per_request,49.2,68.6,49.2,0.0,89.0,0.0,Pricing & Revenue
+free_requests_per_month,48.8,65.5,41.1,13.4,86.6,0.0,Other
+api_type_encoded,45.8,62.4,36.6,0.0,100.0,0.0,Other
+status_encoded,44.4,26.8,23.8,71.3,66.6,0.0,Other
+basic_auth_supported,43.3,60.8,9.4,30.5,93.7,0.0,Security & Auth
+oauth_supported,42.9,37.6,10.2,66.9,62.9,50.0,Security & Auth
+price_per_month,42.2,23.9,47.8,32.0,37.9,66.7,Pricing & Revenue
+pagination_supported,42.0,38.9,10.0,47.6,92.1,0.0,Other
+api_key_required,41.1,22.4,10.1,100.0,39.1,0.0,Other
+supports_sdk,39.6,2.8,10.1,67.5,64.5,66.7,API Features
+openapi_spec_available,37.5,22.4,10.2,53.8,42.7,66.7,Other
+webhook_supported,36.9,56.8,10.0,0.0,87.1,50.0,API Features
+documentation_available,34.2,5.0,10.0,44.4,34.0,83.3,Developer Experience
+search_supported,33.7,47.9,9.7,0.0,77.7,50.0,Other
+protocol_encoded,33.2,28.8,36.9,53.1,6.5,0.0,Other
+code_examples_available,32.1,12.3,10.2,16.0,48.2,83.3,Developer Experience
+jwt_supported,27.9,21.3,10.1,0.0,73.9,50.0,Other
+sorting_supported,27.1,55.4,10.1,0.0,54.0,0.0,Other
+pricing_model_encoded,26.2,2.3,11.8,0.0,40.7,83.3,Pricing & Revenue
+rate_limiting_enabled,24.3,16.4,10.1,0.0,56.5,50.0,Other
+supports_webhooks,23.8,8.8,10.0,0.0,63.4,50.0,API Features
+sdk_available,20.6,0.4,10.1,0.0,31.0,66.7,API Features
+requires_authentication,20.5,23.0,10.2,0.0,22.6,50.0,Security & Auth
+response_format_encoded,11.9,2.1,35.7,0.0,1.2,0.0,Performance
+filtering_supported,6.1,0.6,10.2,0.0,14.6,0.0,Other
+supports_cors,5.5,8.4,10.3,0.0,0.8,0.0,Other
+compression_supported,4.9,2.0,10.2,0.0,6.5,0.0,Other
