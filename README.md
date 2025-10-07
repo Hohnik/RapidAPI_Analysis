@@ -1,38 +1,28 @@
-# RapidAPI Marketplace Analyzer
+# RapidAPI Success Analyzer
 
-Analyzes API marketplace data to categorize APIs and provide market insights.
+A Python script to analyze API marketplace data and identify key factors for API success.
 
-## Usage
+## Setup & Usage
+
+Sync environment | Install dependencies | Run script:
 
 ```bash
+uv sync
 uv run main.py
 ```
 
-## Features
+## Analysis Steps
 
-- **API Categorization**: Groups APIs by type (Weather, AI/ML, Finance, etc.)
-- **Pricing Analysis**: Shows distribution of Free, Freemium, and Paid APIs
-- **Market Insights**: Identifies top categories and trends
-- **Data Export**: Saves data in JSON and CSV formats
-- **Visualizations**: Creates charts showing category and pricing distributions
+The script performs the following analysis:
 
-## Output
+1. **Exploratory Analysis**: Shows top APIs and categories by a calculated "Success Score".
+2. **Model Training**: Trains ML models to predict API success.
+3. **Feature Importance**: Identifies the most influential features for success.
+4. **Cluster Analysis**: Automatically finds the optimal number of API clusters and groups them by their characteristics.
 
-- `rapidapi_data_*.json` - Raw API data
-- `rapidapi_data_*.csv` - Spreadsheet format  
-- `rapidapi_analysis.png` - Analysis charts
-- Console report with market insights
+## Output Files
 
-## Sample Analysis
-
-The tool analyzes 15 sample APIs across 9 categories:
-
-**Top Categories:**
-1. Utilities: 4 APIs
-2. AI/ML: 3 APIs  
-3. Finance: 2 APIs
-
-**Pricing Distribution:**
-- Free: 40%
-- Freemium: 33%
-- Paid: 27%
+- `feature_importance.png`: Chart of the most important features.
+- `feature_importance_scores.csv`: The raw data for the feature importance scores.
+- `elbow_curve.png`: Plot used to determine the optimal number of clusters.
+- `cluster_visualizations.png`: PCA and UMAP plots showing the identified API clusters.
